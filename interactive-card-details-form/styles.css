@@ -1,0 +1,61 @@
+/*body, html{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+
+}
+*/
+#card{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    
+}
+#card-details{
+    align-self: center;
+    margin-top: 150px;
+}
+label, input{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+#month, #year, #CVC{
+    display: inline-block;
+    width: 50px;
+}
+input{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1.5px solid black;
+}
+.card-inputs{
+ padding-bottom: 15px;
+}
+
+#background{
+    position: absolute;
+}
+#card-front{
+    position: relative;
+    top: 150px;
+    left: 180px;
+}
+#card-back{
+    position: relative;
+    top: 170px;
+    left: 250px;
+}
+button{
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: hsl(278, 68%, 11%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Space Grotesk', sans-serif;
+}
